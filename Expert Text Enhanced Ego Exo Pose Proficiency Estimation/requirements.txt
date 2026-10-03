@@ -1,0 +1,9 @@
+opencv-python
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+sentence-transformers
+torch
+torchvision

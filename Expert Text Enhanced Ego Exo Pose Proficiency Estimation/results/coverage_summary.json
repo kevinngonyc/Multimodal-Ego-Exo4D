@@ -1,0 +1,7 @@
+{
+  "selected_takes": 128,
+  "ego_exo_video": 128,
+  "body_pose": 52,
+  "takes_with_any_aligned_expert_text": 120,
+  "complete_model_input": 52
+}

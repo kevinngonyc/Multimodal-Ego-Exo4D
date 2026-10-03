@@ -1,0 +1,12 @@
+{
+  "aligned_segments": 1682,
+  "commentary_documents": 120,
+  "pose_covered_takes_with_text": 52,
+  "median_segments_per_pose_covered_take": 35.0,
+  "direct_rating_segments": 12,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "silhouette": {
+    "activity": 0.18695122003555298,
+    "proficiency": 0.007531696930527687
+  }
+}

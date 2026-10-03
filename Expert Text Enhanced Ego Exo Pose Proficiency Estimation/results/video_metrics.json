@@ -1,0 +1,14 @@
+{
+  "sampled_takes": 32,
+  "frames_per_take": 6,
+  "seed": 42,
+  "device": "cuda",
+  "ego": {
+    "proficiency": 0.016163021326065063,
+    "activity": 0.22519060969352722
+  },
+  "exo": {
+    "proficiency": 0.006160086486488581,
+    "activity": 0.28692495822906494
+  }
+}
