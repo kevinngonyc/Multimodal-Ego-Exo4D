@@ -7,3 +7,4 @@ seaborn
 sentence-transformers
 torch
 torchvision
+scikit-learn
