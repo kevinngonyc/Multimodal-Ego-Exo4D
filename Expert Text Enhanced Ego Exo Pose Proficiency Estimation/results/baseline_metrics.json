@@ -1,0 +1,37 @@
+{
+  "evaluation": "3-fold stratified participant-disjoint cross-validation",
+  "seed": 42,
+  "takes": 52,
+  "participants": 28,
+  "frames_per_take": 6,
+  "classes": [
+    "Novice",
+    "Early Expert",
+    "Intermediate Expert",
+    "Late Expert"
+  ],
+  "class_counts": {
+    "Late Expert": 19,
+    "Intermediate Expert": 16,
+    "Early Expert": 14,
+    "Novice": 3
+  },
+  "models": {
+    "ego": {
+      "accuracy": 0.4230769230769231,
+      "macro_f1": 0.3879349324510615
+    },
+    "exo": {
+      "accuracy": 0.4230769230769231,
+      "macro_f1": 0.4162713765068685
+    },
+    "ego_exo": {
+      "accuracy": 0.40384615384615385,
+      "macro_f1": 0.3592171717171717
+    },
+    "ego_exo_pose": {
+      "accuracy": 0.38461538461538464,
+      "macro_f1": 0.33588709677419354
+    }
+  }
+}
