@@ -1,0 +1,20 @@
+take: uniandes_bouldering_033_44
+scenario: Rock Climbing
+true level: 4
+duration: 28.6 s, 859 frames at 30 fps; sampled frame indices: [np.int64(0), np.int64(57), np.int64(114), np.int64(172), np.int64(229), np.int64(286), np.int64(343), np.int64(400), np.int64(458), np.int64(515), np.int64(572), np.int64(629), np.int64(686), np.int64(744), np.int64(801), np.int64(858)]
+
+fine-tuned, video + commentary: predicted 2  (p1-p4 = 0.1982, 0.4197, 0.2884, 0.0936)
+fine-tuned, video only: predicted 2  (p1-p4 = 0.1504, 0.3608, 0.3184, 0.1704)
+fine-tuned, commentary only: predicted 2  (p1-p4 = 0.1563, 0.3749, 0.3309, 0.1379)
+zero-shot, video + commentary: predicted 2  (p1-p4 = 0.2741, 0.5121, 0.1884, 0.0255)
+
+Expert commentary (as given to the model, rating terms masked):
+
+Expert 1:
+[13.8s] The climber is chucking up his hands, the reason why he is placing his hands inside of the chuck bucket. He will be covering over his palms and that will help him with having better grip when sustaining onto the holds of the wall as well as absorbing any sweat that may be coming from his hands.
+[20.2s] The climbers is starting at a one-hold start, both of the hands placed into the same hole. This is called matching and he places with both hands as a pinch grip. This is because the climber is placing the fingers above and the thumb at the bottom. Placing the thumb onto the other side helps the climber to generate more power onto the grip and once a climber gets to secure the grip placement he will be able to then lean back to apply weight to the grips. This is a step up start so the climber is right now stepping on the mat and once he gets to place the feet onto the wall and is no longer standing in the mat then the climb will start.
+[21.6s] The climber was able to send the left hand out for the grip, this one coming into a pinch placed vertically. To generate power the climber then presses the thumb onto the one side to squeeze onto the hold and once the climber secures the grip then he would be able to lean back. However, the climber's left foot has popped out of place. This one was placed on a large hold and when doing the transition the climber did not give sufficient pressure into the hold, which is the reason why the climber has come out of the foot placement and now it's on the mat ending the climb.
+
+Expert 2:
+[21.4s] So it's hard to say what goes wrong from this angle, but I think one thing's clear is the way the foot appears to be it looks like it's kind of There's his soul. So it looks like it's kind of going in directly on the side. I think what he wants to do is Toe him or at the top and then drive his weight up and over So that knee is gonna have to kind of go from this position to being up here So he can kind of toe down straight through the hold
+[21.5s] We can see with how his leg is, it's kind of pushing him out to the right and he's trying to kind of come up and to the left to hit the next hold. So these two kind of motions are kind of at odds with one another. And so I think the foot's placed to drive him to the right. What he needs to do is place it so he can drive straight down through it and then shift his weight over the foot.

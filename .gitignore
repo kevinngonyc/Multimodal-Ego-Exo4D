@@ -2,3 +2,4 @@ data/
 tensors/
 pretrained/
 qwen35-4b-finetuned/
+embeddings/
