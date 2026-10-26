@@ -1,0 +1,1458 @@
+[
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "3059469a-03fc-4ae0-bbf7-b08187d1b290",
+    "true_label": "Novice",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "55a996a2-cdf3-4976-b475-a7c4c6a008a8",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "8ae48fdc-926f-45d9-8037-7d69a6e4b910",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "aa843c14-03ef-4b97-932c-070837ab2bb6",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "e699e6b6-fe32-43be-9e1d-7bd2113599e8",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "0ccfd492-8880-4ef2-90f5-e9f54f2cd080",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "82e854f5-b603-409b-821d-3e4f19b030b0",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "84f6d19d-c237-49f6-93ed-421344f70840",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "ae5c4267-d7ac-442f-9f51-994508a3bbe1",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "bb0eda29-926a-4b71-8124-4b2549c458b3",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "d9269b6d-92f1-45c7-a383-b1ea0da55b59",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "18e1e279-78e1-4c10-97a7-42dace59267b",
+    "true_label": "Late Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "173f3262-9a30-4c0b-95ce-c9ab11b4068d",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "6643d761-400d-41d6-946f-2164741d8154",
+    "true_label": "Late Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "4da9f6d7-08e8-4c2a-9224-0f2cece08780",
+    "true_label": "Late Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "261f6455-c60e-4fe4-8eca-6bb8fbb18ff9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "4936bc54-2dd9-49fd-9fc4-a25fc8f765e6",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 1,
+    "take_uid": "77995893-6b5c-46db-b0a3-53d263a57c6b",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "abf00ef3-e9f2-491a-9692-114c4885298c",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "3c56b1ee-b11f-4aeb-a6ab-359fc1bbea3b",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "821d78ac-f65d-4bc4-8bcf-822cb33d625c",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "90e697a5-2cff-4ecc-a580-f4c230a5488c",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "f1c3d2f5-e6bf-4899-a40d-12489d1ebb11",
+    "true_label": "Early Expert",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "2d5b4923-2fa9-445c-a132-b99fc42941b3",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "8bb19b57-b9bf-4287-beaf-6a6d625712b6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "4c08e855-f8ad-4c27-8ae7-116eb13f1309",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "f132578d-b65b-43d0-8a78-870c3638d029",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "a914f836-eb7d-4ebc-a537-e8d7dbb39429",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "fa0e1a71-2174-43ef-a694-a4af360573a4",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "68e393fc-d1e9-411c-898b-6d2f2f495249",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "1e3b818d-7d17-42b4-ab9c-0c04ea9a8a10",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "63156ba0-fabc-49e2-bb93-a8a0c5028ad0",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "87abc58b-cc20-43ac-b5b5-6834e8402dd5",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "98057e97-bc78-4af8-bb3c-bc0b6129f054",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 2,
+    "take_uid": "cef2f19f-ec48-410c-8205-4572cc8706d9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "126eb2a4-4d4f-4d35-b390-7d9550b54c60",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "1c504968-4f68-48dc-bee3-159fa197af65",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "3eaf67f2-6d43-4b99-99a9-d591796fc73b",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "41006de0-560c-4e27-8dab-08e711a9bf7f",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "5fd8e998-7626-496c-8023-26a6959af5d5",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "e81aa2e9-eb44-41a4-b547-271dc304d80c",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "af307077-8a29-443b-88f8-c3af94907b6f",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "782d6f7f-4bcd-49ce-bcf0-9765e7f776af",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "bc0bc55f-1ea5-4d28-9d0b-2f011bf49e35",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "e481c982-5bd0-49eb-9446-6ec753d7f366",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "8d8ed098-f40e-47a3-ac66-9f45077d52d6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "a845fe55-b0f5-4559-b3e3-313793aafe1c",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "2de0896b-df6d-4687-bbff-f700d675e385",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "655b89a8-9725-4756-9fc0-db01a580d88a",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "6ddd7cf1-02f0-4d46-837f-8aaddd1236c7",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "73174ecc-974a-40f7-aaed-ca24a0dc71c2",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo",
+    "fold": 3,
+    "take_uid": "afcff62a-3615-4afd-a08b-7bb6ade86a2e",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "3059469a-03fc-4ae0-bbf7-b08187d1b290",
+    "true_label": "Novice",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "55a996a2-cdf3-4976-b475-a7c4c6a008a8",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "8ae48fdc-926f-45d9-8037-7d69a6e4b910",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "aa843c14-03ef-4b97-932c-070837ab2bb6",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "e699e6b6-fe32-43be-9e1d-7bd2113599e8",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "0ccfd492-8880-4ef2-90f5-e9f54f2cd080",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "82e854f5-b603-409b-821d-3e4f19b030b0",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "84f6d19d-c237-49f6-93ed-421344f70840",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "ae5c4267-d7ac-442f-9f51-994508a3bbe1",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "bb0eda29-926a-4b71-8124-4b2549c458b3",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "d9269b6d-92f1-45c7-a383-b1ea0da55b59",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "18e1e279-78e1-4c10-97a7-42dace59267b",
+    "true_label": "Late Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "173f3262-9a30-4c0b-95ce-c9ab11b4068d",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "6643d761-400d-41d6-946f-2164741d8154",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "4da9f6d7-08e8-4c2a-9224-0f2cece08780",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "261f6455-c60e-4fe4-8eca-6bb8fbb18ff9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "4936bc54-2dd9-49fd-9fc4-a25fc8f765e6",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 1,
+    "take_uid": "77995893-6b5c-46db-b0a3-53d263a57c6b",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "abf00ef3-e9f2-491a-9692-114c4885298c",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "3c56b1ee-b11f-4aeb-a6ab-359fc1bbea3b",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "821d78ac-f65d-4bc4-8bcf-822cb33d625c",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "90e697a5-2cff-4ecc-a580-f4c230a5488c",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "f1c3d2f5-e6bf-4899-a40d-12489d1ebb11",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "2d5b4923-2fa9-445c-a132-b99fc42941b3",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "8bb19b57-b9bf-4287-beaf-6a6d625712b6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "4c08e855-f8ad-4c27-8ae7-116eb13f1309",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "f132578d-b65b-43d0-8a78-870c3638d029",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "a914f836-eb7d-4ebc-a537-e8d7dbb39429",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "fa0e1a71-2174-43ef-a694-a4af360573a4",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "68e393fc-d1e9-411c-898b-6d2f2f495249",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "1e3b818d-7d17-42b4-ab9c-0c04ea9a8a10",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "63156ba0-fabc-49e2-bb93-a8a0c5028ad0",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "87abc58b-cc20-43ac-b5b5-6834e8402dd5",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "98057e97-bc78-4af8-bb3c-bc0b6129f054",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 2,
+    "take_uid": "cef2f19f-ec48-410c-8205-4572cc8706d9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "126eb2a4-4d4f-4d35-b390-7d9550b54c60",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "1c504968-4f68-48dc-bee3-159fa197af65",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "3eaf67f2-6d43-4b99-99a9-d591796fc73b",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "41006de0-560c-4e27-8dab-08e711a9bf7f",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "5fd8e998-7626-496c-8023-26a6959af5d5",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "e81aa2e9-eb44-41a4-b547-271dc304d80c",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "af307077-8a29-443b-88f8-c3af94907b6f",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "782d6f7f-4bcd-49ce-bcf0-9765e7f776af",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "bc0bc55f-1ea5-4d28-9d0b-2f011bf49e35",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "e481c982-5bd0-49eb-9446-6ec753d7f366",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "8d8ed098-f40e-47a3-ac66-9f45077d52d6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "a845fe55-b0f5-4559-b3e3-313793aafe1c",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "2de0896b-df6d-4687-bbff-f700d675e385",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "655b89a8-9725-4756-9fc0-db01a580d88a",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "6ddd7cf1-02f0-4d46-837f-8aaddd1236c7",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "73174ecc-974a-40f7-aaed-ca24a0dc71c2",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose",
+    "fold": 3,
+    "take_uid": "afcff62a-3615-4afd-a08b-7bb6ade86a2e",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "3059469a-03fc-4ae0-bbf7-b08187d1b290",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "55a996a2-cdf3-4976-b475-a7c4c6a008a8",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "8ae48fdc-926f-45d9-8037-7d69a6e4b910",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "aa843c14-03ef-4b97-932c-070837ab2bb6",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "e699e6b6-fe32-43be-9e1d-7bd2113599e8",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "0ccfd492-8880-4ef2-90f5-e9f54f2cd080",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "82e854f5-b603-409b-821d-3e4f19b030b0",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "84f6d19d-c237-49f6-93ed-421344f70840",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "ae5c4267-d7ac-442f-9f51-994508a3bbe1",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "bb0eda29-926a-4b71-8124-4b2549c458b3",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "d9269b6d-92f1-45c7-a383-b1ea0da55b59",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "18e1e279-78e1-4c10-97a7-42dace59267b",
+    "true_label": "Late Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "173f3262-9a30-4c0b-95ce-c9ab11b4068d",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "6643d761-400d-41d6-946f-2164741d8154",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "4da9f6d7-08e8-4c2a-9224-0f2cece08780",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "261f6455-c60e-4fe4-8eca-6bb8fbb18ff9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "4936bc54-2dd9-49fd-9fc4-a25fc8f765e6",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 1,
+    "take_uid": "77995893-6b5c-46db-b0a3-53d263a57c6b",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "abf00ef3-e9f2-491a-9692-114c4885298c",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "3c56b1ee-b11f-4aeb-a6ab-359fc1bbea3b",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "821d78ac-f65d-4bc4-8bcf-822cb33d625c",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "90e697a5-2cff-4ecc-a580-f4c230a5488c",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "f1c3d2f5-e6bf-4899-a40d-12489d1ebb11",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "2d5b4923-2fa9-445c-a132-b99fc42941b3",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "8bb19b57-b9bf-4287-beaf-6a6d625712b6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "4c08e855-f8ad-4c27-8ae7-116eb13f1309",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "f132578d-b65b-43d0-8a78-870c3638d029",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "a914f836-eb7d-4ebc-a537-e8d7dbb39429",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "fa0e1a71-2174-43ef-a694-a4af360573a4",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "68e393fc-d1e9-411c-898b-6d2f2f495249",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "1e3b818d-7d17-42b4-ab9c-0c04ea9a8a10",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "63156ba0-fabc-49e2-bb93-a8a0c5028ad0",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "87abc58b-cc20-43ac-b5b5-6834e8402dd5",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "98057e97-bc78-4af8-bb3c-bc0b6129f054",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 2,
+    "take_uid": "cef2f19f-ec48-410c-8205-4572cc8706d9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "126eb2a4-4d4f-4d35-b390-7d9550b54c60",
+    "true_label": "Novice",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "1c504968-4f68-48dc-bee3-159fa197af65",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "3eaf67f2-6d43-4b99-99a9-d591796fc73b",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "41006de0-560c-4e27-8dab-08e711a9bf7f",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "5fd8e998-7626-496c-8023-26a6959af5d5",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "e81aa2e9-eb44-41a4-b547-271dc304d80c",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "af307077-8a29-443b-88f8-c3af94907b6f",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "782d6f7f-4bcd-49ce-bcf0-9765e7f776af",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "bc0bc55f-1ea5-4d28-9d0b-2f011bf49e35",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "e481c982-5bd0-49eb-9446-6ec753d7f366",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "8d8ed098-f40e-47a3-ac66-9f45077d52d6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "a845fe55-b0f5-4559-b3e3-313793aafe1c",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "2de0896b-df6d-4687-bbff-f700d675e385",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "655b89a8-9725-4756-9fc0-db01a580d88a",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "6ddd7cf1-02f0-4d46-837f-8aaddd1236c7",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "73174ecc-974a-40f7-aaed-ca24a0dc71c2",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "ego_exo_pose_aligned_text",
+    "fold": 3,
+    "take_uid": "afcff62a-3615-4afd-a08b-7bb6ade86a2e",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "3059469a-03fc-4ae0-bbf7-b08187d1b290",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "55a996a2-cdf3-4976-b475-a7c4c6a008a8",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "8ae48fdc-926f-45d9-8037-7d69a6e4b910",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "aa843c14-03ef-4b97-932c-070837ab2bb6",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "e699e6b6-fe32-43be-9e1d-7bd2113599e8",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "0ccfd492-8880-4ef2-90f5-e9f54f2cd080",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "82e854f5-b603-409b-821d-3e4f19b030b0",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "84f6d19d-c237-49f6-93ed-421344f70840",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "ae5c4267-d7ac-442f-9f51-994508a3bbe1",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "bb0eda29-926a-4b71-8124-4b2549c458b3",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "d9269b6d-92f1-45c7-a383-b1ea0da55b59",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "18e1e279-78e1-4c10-97a7-42dace59267b",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "173f3262-9a30-4c0b-95ce-c9ab11b4068d",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "6643d761-400d-41d6-946f-2164741d8154",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "4da9f6d7-08e8-4c2a-9224-0f2cece08780",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "261f6455-c60e-4fe4-8eca-6bb8fbb18ff9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "4936bc54-2dd9-49fd-9fc4-a25fc8f765e6",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 1,
+    "take_uid": "77995893-6b5c-46db-b0a3-53d263a57c6b",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "abf00ef3-e9f2-491a-9692-114c4885298c",
+    "true_label": "Novice",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "3c56b1ee-b11f-4aeb-a6ab-359fc1bbea3b",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "821d78ac-f65d-4bc4-8bcf-822cb33d625c",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "90e697a5-2cff-4ecc-a580-f4c230a5488c",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "f1c3d2f5-e6bf-4899-a40d-12489d1ebb11",
+    "true_label": "Early Expert",
+    "predicted_label": "Novice"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "2d5b4923-2fa9-445c-a132-b99fc42941b3",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "8bb19b57-b9bf-4287-beaf-6a6d625712b6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "4c08e855-f8ad-4c27-8ae7-116eb13f1309",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "f132578d-b65b-43d0-8a78-870c3638d029",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "a914f836-eb7d-4ebc-a537-e8d7dbb39429",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "fa0e1a71-2174-43ef-a694-a4af360573a4",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "68e393fc-d1e9-411c-898b-6d2f2f495249",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "1e3b818d-7d17-42b4-ab9c-0c04ea9a8a10",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "63156ba0-fabc-49e2-bb93-a8a0c5028ad0",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "87abc58b-cc20-43ac-b5b5-6834e8402dd5",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "98057e97-bc78-4af8-bb3c-bc0b6129f054",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 2,
+    "take_uid": "cef2f19f-ec48-410c-8205-4572cc8706d9",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "126eb2a4-4d4f-4d35-b390-7d9550b54c60",
+    "true_label": "Novice",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "1c504968-4f68-48dc-bee3-159fa197af65",
+    "true_label": "Early Expert",
+    "predicted_label": "Intermediate Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "3eaf67f2-6d43-4b99-99a9-d591796fc73b",
+    "true_label": "Early Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "41006de0-560c-4e27-8dab-08e711a9bf7f",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "5fd8e998-7626-496c-8023-26a6959af5d5",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "e81aa2e9-eb44-41a4-b547-271dc304d80c",
+    "true_label": "Early Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "af307077-8a29-443b-88f8-c3af94907b6f",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "782d6f7f-4bcd-49ce-bcf0-9765e7f776af",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "bc0bc55f-1ea5-4d28-9d0b-2f011bf49e35",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "e481c982-5bd0-49eb-9446-6ec753d7f366",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "8d8ed098-f40e-47a3-ac66-9f45077d52d6",
+    "true_label": "Intermediate Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "a845fe55-b0f5-4559-b3e3-313793aafe1c",
+    "true_label": "Late Expert",
+    "predicted_label": "Early Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "2de0896b-df6d-4687-bbff-f700d675e385",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "655b89a8-9725-4756-9fc0-db01a580d88a",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "6ddd7cf1-02f0-4d46-837f-8aaddd1236c7",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "73174ecc-974a-40f7-aaed-ca24a0dc71c2",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  },
+  {
+    "model": "masked_text_only",
+    "fold": 3,
+    "take_uid": "afcff62a-3615-4afd-a08b-7bb6ade86a2e",
+    "true_label": "Late Expert",
+    "predicted_label": "Late Expert"
+  }
+]

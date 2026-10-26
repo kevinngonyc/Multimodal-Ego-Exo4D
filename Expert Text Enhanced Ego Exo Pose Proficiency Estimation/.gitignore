@@ -1,3 +1,10 @@
 __pycache__/
 *.pyc
 baseline_results/
+*.npy
+*.npz
+*.pt
+*.log
+*.err.log
+*.cmd
+*.vbs

@@ -1,0 +1,50 @@
+{
+  "evaluation": "participant-disjoint stratified cross-validation, take-level mean pooling of timestamp logits",
+  "device": "cuda",
+  "takes": 52,
+  "intervals": 156,
+  "classes": [
+    "Novice",
+    "Early Expert",
+    "Intermediate Expert",
+    "Late Expert"
+  ],
+  "class_counts": {
+    "Novice": 3,
+    "Early Expert": 14,
+    "Intermediate Expert": 16,
+    "Late Expert": 19
+  },
+  "models": {
+    "ego_exo": {
+      "accuracy": 0.4423076923076923,
+      "balanced_accuracy": 0.4689458020050125,
+      "macro_f1": 0.41033138401559455,
+      "takes": 52
+    },
+    "ego_exo_pose": {
+      "accuracy": 0.5192307692307693,
+      "balanced_accuracy": 0.5334429824561403,
+      "macro_f1": 0.510144927536232,
+      "takes": 52
+    },
+    "ego_exo_pose_aligned_text": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5178179824561403,
+      "macro_f1": 0.5173218673218674,
+      "takes": 52,
+      "shuffled_text_control": {
+        "accuracy": 0.49798474945533755,
+        "balanced_accuracy": 0.5248015873015874,
+        "macro_f1": 0.47928348612172145
+      },
+      "shuffled_text_repeats": 60
+    },
+    "masked_text_only": {
+      "accuracy": 0.4423076923076923,
+      "balanced_accuracy": 0.4736450501253132,
+      "macro_f1": 0.44655727155727154,
+      "takes": 52
+    }
+  }
+}
