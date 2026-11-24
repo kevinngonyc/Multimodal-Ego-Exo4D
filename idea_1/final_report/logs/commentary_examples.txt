@@ -1,0 +1,19 @@
+aspect classifier (train-split comments -> aspect tag), accuracy on val-split comments:
+  Basketball     19 aspects, val comments 10052: acc 0.929 (most frequent 'follow-through' 0.249)
+  Cooking        14 aspects, val comments 2905: acc 0.937 (most frequent 'tools' 0.219)
+  Dance          17 aspects, val comments 12913: acc 0.942 (most frequent 'clarity' 0.485)
+  Music          13 aspects, val comments 4500: acc 0.937 (most frequent 'bowing' 0.184)
+  Rock Climbing  11 aspects, val comments 6984: acc 0.669 (most frequent 'hips' 0.450)
+  Soccer         14 aspects, val comments 5504: acc 0.977 (most frequent 'contact' 0.552)
+
+model's aspect readout at clips with a real comment (comment aspect != other):
+  Basketball     n= 30016  top-1 0.211  top-3 0.454  (most-frequent-aspect 0.249)  praise/tip agreement 0.598 (real praise share 0.380, predicted 0.485)
+  Cooking        n=  8715  top-1 0.133  top-3 0.278  (most-frequent-aspect 0.219)  praise/tip agreement 0.524 (real praise share 0.525, predicted 0.653)
+  Dance          n= 38739  top-1 0.485  top-3 0.753  (most-frequent-aspect 0.485)  praise/tip agreement 0.584 (real praise share 0.373, predicted 0.365)
+  Music          n= 13498  top-1 0.281  top-3 0.611  (most-frequent-aspect 0.184)  praise/tip agreement 0.547 (real praise share 0.396, predicted 0.508)
+  Rock Climbing  n= 20568  top-1 0.457  top-3 0.569  (most-frequent-aspect 0.457)  praise/tip agreement 0.500 (real praise share 0.286, predicted 0.577)
+  Soccer         n= 16198  top-1 0.367  top-3 0.990  (most-frequent-aspect 0.552)  praise/tip agreement 0.556 (real praise share 0.185, predicted 0.459)
+
+example takes: ['unc_basketball_03-30-23_02_2', 'iiith_cooking_55_2', 'uniandes_dance_002_7', 'upenn_0724_Guitar_1_3', 'uniandes_bouldering_034_8', 'iiith_soccer_031_6']
+per-take presence AUC on val: median 0.788 over 332 takes
+wrote final_report\figures\fig5_commentary_examples.png

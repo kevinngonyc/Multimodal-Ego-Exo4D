@@ -1,0 +1,7 @@
+{"scenario": "Dance", "fold": 0, "n_fit": 321, "n_innerval": 54, "n_test": 126, "rated_fit": 226, "rated_innerval": 30, "rated_test": 83, "experts": 6, "pairs_same_task": 26770, "pairs_other": 66560, "pairs_used": 26770, "args": {"fold": 0, "scenario": "Dance", "W": 32, "pairs": 4, "lam": 4.0, "rank": 1.0, "lora_r": 8, "layers": "8,9,10,11", "lr": 0.0001, "head_lr": 0.0001, "ft_epochs": 8, "patience": 3, "workers": 8, "smoke": false}}
+{"stage": "frozen", "best_epoch": 7, "inner_rho": 0.5737, "min": 0.8}
+{"lora_params": 344064}
+{"sanity_cos_full": [0.9996, 0.9996], "sanity_cos_window": 0.9998, "min": 1.1}
+{"epoch": 0, "inner_rho_live": 0.5737, "min": 3.0}
+{"epoch": 1, "step": 4, "loss": 3.8569, "sec_per_step": 18.6, "data_wait": 3.3, "mem_gb": 7.67}
+{"epoch": 1, "loss": 3.8141, "inner_rho_live": 0.2298, "train_min": 13.9, "data_wait_min": 0.1, "min": 17.2}

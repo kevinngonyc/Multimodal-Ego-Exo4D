@@ -1,0 +1,12 @@
+model,tag,command (from idea_1),trainings (folds x seeds),rating_epoch_median,rating_epoch_min,rating_epoch_max,level_epoch_median,level_epoch_min,level_epoch_max,wall_time_rtx4070super,trainable_params_jointnet
+"Joint, no commentary",joint,python cls_lang/joint.py,40,6.5,1,41,3.0,1,36,about 20 min,648131
+Joint + commentary 0.5 (FINAL),joint_comm,python cls_lang/joint.py --lam 0.5 --tag joint_comm,40,7.0,1,30,3.0,1,20,about 27 min,648131
+Joint + commentary 1,joint_lam1,python cls_lang/joint.py --lam 1 --tag joint_lam1,40,7.0,1,34,3.0,1,19,about 27 min,648131
+Joint + commentary 2,joint_lam2,python cls_lang/joint.py --lam 2 --tag joint_lam2,40,7.5,1,42,3.5,1,15,about 27 min,648131
+Joint + commentary 4,joint_lam4,python cls_lang/joint.py --lam 4 --tag joint_lam4,40,8.5,1,25,4.0,1,33,about 27 min,648131
+Joint + commentary 0.5 + ranking loss 1,joint_comm_rank,python cls_lang/joint.py --lam 0.5 --rank 1 --tag joint_comm_rank,40,5.5,1,29,3.0,1,36,about 45 min,648131
+"Joint + commentary 0.5, V-JEPA 2",joint_comm_vjepa,python cls_lang/joint.py --lam 0.5 --feat_cache embeddings/cls_lang_clipfeats_vjepa.pt --clip_sec 2 --tag joint_comm_vjepa,40,7.0,1,34,3.5,1,31,about 24 min,648131
+FINAL on official split (train -> val),joint_comm_official,python cls_lang/joint.py --lam 0.5 --official --tag joint_comm_official,2,23.5,20,27,8.5,7,10,2.4 min,648131
+"FINAL on official split, 5 seeds",joint_comm_official_s5,python cls_lang/joint.py --lam 0.5 --official --seeds 5 --tag joint_comm_official_s5,5,12.0,9,19,8.0,7,18,3.9 min,648131
+"FINAL on official split, ego view only",joint_comm_official_ego,python cls_lang/joint.py --lam 0.5 --official --view ego --tag joint_comm_official_ego,2,9.5,6,13,5.0,4,6,1.2 min,549827
+"FINAL on official split, exo view only",joint_comm_official_exo,python cls_lang/joint.py --lam 0.5 --official --view exo --tag joint_comm_official_exo,2,14.0,9,19,9.0,5,13,1.6 min,549827

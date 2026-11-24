@@ -1,0 +1,4 @@
+official split: 1655 train, 456 val takes
+2111 takes, 1511 rated, D=768, clip 1 s, crop 384; joint rating + level, lam 0.5
+{"repeat": 0, "fold": 0, "epochs_rating": [6, 13], "epochs_level": [6, 4], "rating_rho": 0.722, "level_rho": 0.326, "level_acc": 0.439, "pres_auc": 0.704, "pres_auc_position": 0.521, "pol_auc": 0.608, "pol_auc_takemean": 0.613, "pol_auc_within": 0.532, "txt_cos": 0.611, "txt_cos_meanbaseline": 0.585} 1.2 min
+commentary (mean over folds): pres_auc 0.704, pres_auc_position 0.521, pol_auc 0.608, pol_auc_takemean 0.613, pol_auc_within 0.532, txt_cos 0.611, txt_cos_meanbaseline 0.585

@@ -1,0 +1,17 @@
+339 rated takes, 1641 (take, expert) rows on takes with >= 2 experts, 64 participants
+model                      vs experts raw   vs experts z   vs level
+human: one expert                   0.554          0.698      0.267
+probe: rating_dance8                0.451          0.440      0.300
+CLS: rating_dance8                  0.370          0.350      0.304
+probe: rating_dance30               0.426          0.413      0.322
+CLS: rating_dance30                 0.364          0.344      0.321
+paired differences (95% participant bootstrap)
+  CLS: rating_dance8 - probe: rating_dance8: raw -0.081 [-0.201, +0.026]   z -0.091 [-0.212, +0.016]   level +0.005 [-0.117, +0.133]
+  CLS: rating_dance30 - probe: rating_dance30: raw -0.062 [-0.188, +0.052]   z -0.068 [-0.197, +0.047]   level -0.001 [-0.098, +0.108]
+  CLS: rating_dance30 - CLS: rating_dance8: raw -0.007 [-0.049, +0.041]   z -0.005 [-0.049, +0.044]   level +0.017 [-0.048, +0.086]
+  probe: rating_dance30 - probe: rating_dance8: raw -0.025 [-0.075, +0.023]   z -0.027 [-0.078, +0.023]   level +0.022 [-0.045, +0.099]
+human z CI: [0.607, 0.756]
+per scenario, vs experts z (human first)
+  Dance          rows=1641 takes= 338 human 0.698  probe: rating_dance8 0.440  CLS: rating_dance8 0.350  probe: rating_dance30 0.413  CLS: rating_dance30 0.344
+rating_dance8: best epoch median 6 (range 1-24)
+rating_dance30: best epoch median 6 (range 1-28)

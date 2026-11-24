@@ -1,0 +1,55 @@
+1511 rated takes, 5565 (take, expert) rows on takes with >= 2 experts, 227 participants
+model                      vs experts raw   vs experts z   vs level
+human: one expert                   0.700          0.772      0.403
+probe: joint                        0.560          0.544      0.448
+probe-ps: joint                     0.625          0.609      0.400
+CLS: joint                          0.655          0.635      0.438
+probe: joint_comm                   0.560          0.544      0.448
+probe-ps: joint_comm                0.625          0.609      0.400
+CLS: joint_comm                     0.660          0.638      0.440
+probe: joint_lam1                   0.560          0.544      0.448
+probe-ps: joint_lam1                0.625          0.609      0.400
+CLS: joint_lam1                     0.657          0.637      0.431
+probe: joint_lam2                   0.560          0.544      0.448
+probe-ps: joint_lam2                0.625          0.609      0.400
+CLS: joint_lam2                     0.660          0.638      0.431
+probe: joint_lam4                   0.560          0.544      0.448
+probe-ps: joint_lam4                0.625          0.609      0.400
+CLS: joint_lam4                     0.663          0.643      0.435
+paired differences (95% participant bootstrap)
+  CLS: joint - probe: joint: raw +0.095 [+0.064, +0.130]   z +0.091 [+0.057, +0.130]   level -0.009 [-0.052, +0.035]
+  probe-ps: joint - probe: joint: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint - probe-ps: joint: raw +0.030 [-0.007, +0.069]   z +0.026 [-0.016, +0.067]   level +0.038 [-0.005, +0.083]
+  CLS: joint_comm - probe: joint_comm: raw +0.100 [+0.067, +0.136]   z +0.095 [+0.057, +0.136]   level -0.008 [-0.052, +0.039]
+  probe-ps: joint_comm - probe: joint_comm: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint_comm - probe-ps: joint_comm: raw +0.035 [-0.003, +0.072]   z +0.029 [-0.013, +0.070]   level +0.040 [-0.004, +0.083]
+  CLS: joint_lam1 - probe: joint_lam1: raw +0.097 [+0.065, +0.134]   z +0.093 [+0.055, +0.133]   level -0.016 [-0.059, +0.029]
+  probe-ps: joint_lam1 - probe: joint_lam1: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint_lam1 - probe-ps: joint_lam1: raw +0.033 [-0.004, +0.069]   z +0.027 [-0.013, +0.068]   level +0.031 [-0.012, +0.075]
+  CLS: joint_lam2 - probe: joint_lam2: raw +0.100 [+0.068, +0.136]   z +0.095 [+0.057, +0.136]   level -0.016 [-0.060, +0.028]
+  probe-ps: joint_lam2 - probe: joint_lam2: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint_lam2 - probe-ps: joint_lam2: raw +0.035 [-0.002, +0.074]   z +0.029 [-0.013, +0.071]   level +0.031 [-0.015, +0.076]
+  CLS: joint_lam4 - probe: joint_lam4: raw +0.103 [+0.069, +0.141]   z +0.099 [+0.059, +0.143]   level -0.012 [-0.054, +0.031]
+  probe-ps: joint_lam4 - probe: joint_lam4: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint_lam4 - probe-ps: joint_lam4: raw +0.038 [+0.003, +0.075]   z +0.034 [-0.005, +0.071]   level +0.035 [-0.008, +0.078]
+  CLS: joint_comm - CLS: joint: raw +0.005 [-0.005, +0.018]   z +0.003 [-0.007, +0.017]   level +0.002 [-0.009, +0.015]
+  probe: joint_comm - probe: joint: raw +0.000 [+0.000, +0.000]   z +0.000 [+0.000, +0.000]   level +0.000 [+0.000, +0.000]
+  CLS: joint_lam1 - CLS: joint: raw +0.002 [-0.008, +0.015]   z +0.002 [-0.009, +0.015]   level -0.007 [-0.019, +0.006]
+  probe: joint_lam1 - probe: joint: raw +0.000 [+0.000, +0.000]   z +0.000 [+0.000, +0.000]   level +0.000 [+0.000, +0.000]
+  CLS: joint_lam2 - CLS: joint: raw +0.005 [-0.007, +0.019]   z +0.004 [-0.009, +0.017]   level -0.007 [-0.018, +0.007]
+  probe: joint_lam2 - probe: joint: raw +0.000 [+0.000, +0.000]   z +0.000 [+0.000, +0.000]   level +0.000 [+0.000, +0.000]
+  CLS: joint_lam4 - CLS: joint: raw +0.008 [-0.003, +0.019]   z +0.008 [-0.003, +0.019]   level -0.003 [-0.014, +0.009]
+  probe: joint_lam4 - probe: joint: raw +0.000 [+0.000, +0.000]   z +0.000 [+0.000, +0.000]   level +0.000 [+0.000, +0.000]
+human z CI: [0.737, 0.798]
+per scenario, vs experts z (human first)
+  Basketball     rows=1410 takes= 401 human 0.823  probe: joint 0.708  probe-ps: joint 0.751  CLS: joint 0.762  probe: joint_comm 0.708  probe-ps: joint_comm 0.751  CLS: joint_comm 0.764  probe: joint_lam1 0.708  probe-ps: joint_lam1 0.751  CLS: joint_lam1 0.761  probe: joint_lam2 0.708  probe-ps: joint_lam2 0.751  CLS: joint_lam2 0.762  probe: joint_lam4 0.708  probe-ps: joint_lam4 0.751  CLS: joint_lam4 0.773
+  Cooking        rows= 473 takes=  99 human 0.495  probe: joint -0.077  probe-ps: joint 0.124  CLS: joint 0.236  probe: joint_comm -0.077  probe-ps: joint_comm 0.124  CLS: joint_comm 0.199  probe: joint_lam1 -0.077  probe-ps: joint_lam1 0.124  CLS: joint_lam1 0.175  probe: joint_lam2 -0.077  probe-ps: joint_lam2 0.124  CLS: joint_lam2 0.188  probe: joint_lam4 -0.077  probe-ps: joint_lam4 0.124  CLS: joint_lam4 0.217
+  Dance          rows=1641 takes= 338 human 0.698  probe: joint 0.261  probe-ps: joint 0.480  CLS: joint 0.375  probe: joint_comm 0.261  probe-ps: joint_comm 0.480  CLS: joint_comm 0.414  probe: joint_lam1 0.261  probe-ps: joint_lam1 0.480  CLS: joint_lam1 0.417  probe: joint_lam2 0.261  probe-ps: joint_lam2 0.480  CLS: joint_lam2 0.415  probe: joint_lam4 0.261  probe-ps: joint_lam4 0.480  CLS: joint_lam4 0.423
+  Music          rows= 565 takes= 134 human 0.727  probe: joint 0.261  probe-ps: joint 0.216  CLS: joint 0.325  probe: joint_comm 0.261  probe-ps: joint_comm 0.216  CLS: joint_comm 0.318  probe: joint_lam1 0.261  probe-ps: joint_lam1 0.216  CLS: joint_lam1 0.311  probe: joint_lam2 0.261  probe-ps: joint_lam2 0.216  CLS: joint_lam2 0.309  probe: joint_lam4 0.261  probe-ps: joint_lam4 0.216  CLS: joint_lam4 0.300
+  Rock Climbing  rows=1246 takes= 449 human 0.845  probe: joint 0.754  probe-ps: joint 0.730  CLS: joint 0.805  probe: joint_comm 0.754  probe-ps: joint_comm 0.730  CLS: joint_comm 0.806  probe: joint_lam1 0.754  probe-ps: joint_lam1 0.730  CLS: joint_lam1 0.809  probe: joint_lam2 0.754  probe-ps: joint_lam2 0.730  CLS: joint_lam2 0.816  probe: joint_lam4 0.754  probe-ps: joint_lam4 0.730  CLS: joint_lam4 0.809
+  Soccer         rows= 230 takes=  54 human 0.745  probe: joint 0.557  probe-ps: joint 0.604  CLS: joint 0.573  probe: joint_comm 0.557  probe-ps: joint_comm 0.604  CLS: joint_comm 0.559  probe: joint_lam1 0.557  probe-ps: joint_lam1 0.604  CLS: joint_lam1 0.564  probe: joint_lam2 0.557  probe-ps: joint_lam2 0.604  CLS: joint_lam2 0.548  probe: joint_lam4 0.557  probe-ps: joint_lam4 0.604  CLS: joint_lam4 0.535
+joint: best epoch median 6 (range 1-41)
+joint_comm: best epoch median 7 (range 1-30)
+joint_lam1: best epoch median 7 (range 1-34)
+joint_lam2: best epoch median 8 (range 1-42)
+joint_lam4: best epoch median 8 (range 1-25)

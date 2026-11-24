@@ -1,0 +1,18 @@
+{
+ "run": "sync_only_r16",
+ "steps": 20000,
+ "probe_every": 2500,
+ "lora_r": 16,
+ "lr": 0.0001,
+ "head_lr": 0.001,
+ "lam_part": 0.0,
+ "tau": 0.1,
+ "P": 4,
+ "T": 2,
+ "C": 4,
+ "workers": 8,
+ "train_bank": "train",
+ "probe_bank": "probe",
+ "smoke": false,
+ "resume": false
+}

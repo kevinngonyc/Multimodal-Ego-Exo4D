@@ -1,0 +1,7 @@
+scenario,commented_clip_comment_pairs,aspect_top1,aspect_top3,most_frequent_aspect_baseline,praise_tip_agreement,real_praise_share,predicted_praise_share
+Basketball,30016,0.211,0.454,0.249,0.598,0.380,0.485
+Cooking,8715,0.133,0.278,0.219,0.524,0.525,0.653
+Dance,38739,0.485,0.753,0.485,0.584,0.373,0.365
+Music,13498,0.281,0.611,0.184,0.547,0.396,0.508
+Rock Climbing,20568,0.457,0.569,0.457,0.500,0.286,0.577
+Soccer,16198,0.367,0.990,0.552,0.556,0.185,0.459

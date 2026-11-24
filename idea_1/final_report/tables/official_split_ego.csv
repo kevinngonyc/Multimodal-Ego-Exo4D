@@ -1,0 +1,31 @@
+eval_set,model,metric,value,ci_lo,ci_hi
+official val,Final model [LEVEL],level_acc,0.439,0.318,0.573
+official val,Final model [LEVEL],level_bal_acc,0.424,0.309,0.580
+official val,Final model [LEVEL],level_spearman,0.326,0.083,0.543
+official val,Frozen PCA level probe,level_acc,0.454,0.331,0.580
+official val,Frozen PCA level probe,level_bal_acc,0.420,0.321,0.556
+official val,Frozen PCA level probe,level_spearman,0.312,0.105,0.513
+official val,Scenario prior,level_acc,0.314,0.182,0.471
+official val,Scenario prior,level_bal_acc,0.332,0.214,0.526
+official val,final - frozen probe,level_acc,-0.015,-0.064,0.042
+official val,final - frozen probe,level_bal_acc,0.004,-0.102,0.116
+official val,final - frozen probe,level_spearman,0.014,-0.093,0.137
+official val,Human: one expert vs the others,rating_raw,0.689,0.564,0.759
+official val,Human: one expert vs the others,rating_z,0.769,0.662,0.823
+official val,Final model [RATING],rating_raw,0.697,0.572,0.765
+official val,Final model [RATING],rating_z,0.673,0.536,0.755
+SkillFormer test half of val,Final model [LEVEL],level_acc,0.415,0.283,0.558
+SkillFormer test half of val,Final model [LEVEL],level_bal_acc,0.388,0.281,0.562
+SkillFormer test half of val,Final model [LEVEL],level_spearman,0.275,0.034,0.522
+SkillFormer test half of val,Frozen PCA level probe,level_acc,0.450,0.333,0.579
+SkillFormer test half of val,Frozen PCA level probe,level_bal_acc,0.429,0.317,0.584
+SkillFormer test half of val,Frozen PCA level probe,level_spearman,0.335,0.097,0.544
+SkillFormer test half of val,Scenario prior,level_acc,0.319,0.179,0.490
+SkillFormer test half of val,Scenario prior,level_bal_acc,0.349,0.211,0.535
+SkillFormer test half of val,final - frozen probe,level_acc,-0.035,-0.101,0.038
+SkillFormer test half of val,final - frozen probe,level_bal_acc,-0.041,-0.144,0.065
+SkillFormer test half of val,final - frozen probe,level_spearman,-0.059,-0.190,0.095
+SkillFormer test half of val,Human: one expert vs the others,rating_raw,0.651,0.477,0.750
+SkillFormer test half of val,Human: one expert vs the others,rating_z,0.721,0.584,0.795
+SkillFormer test half of val,Final model [RATING],rating_raw,0.659,0.508,0.750
+SkillFormer test half of val,Final model [RATING],rating_z,0.643,0.490,0.740

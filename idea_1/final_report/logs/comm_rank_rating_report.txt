@@ -1,0 +1,37 @@
+1511 rated takes, 5565 (take, expert) rows on takes with >= 2 experts, 227 participants
+model                      vs experts raw   vs experts z   vs level
+human: one expert                   0.700          0.772      0.403
+probe: joint                        0.560          0.544      0.448
+probe-ps: joint                     0.625          0.609      0.400
+CLS: joint                          0.655          0.635      0.438
+probe: joint_comm                   0.560          0.544      0.448
+probe-ps: joint_comm                0.625          0.609      0.400
+CLS: joint_comm                     0.660          0.638      0.440
+probe: joint_comm_rank              0.560          0.544      0.448
+probe-ps: joint_comm_rank            0.625          0.609      0.400
+CLS: joint_comm_rank                0.658          0.636      0.439
+paired differences (95% participant bootstrap)
+  CLS: joint - probe: joint: raw +0.095 [+0.064, +0.130]   z +0.091 [+0.057, +0.130]   level -0.009 [-0.052, +0.035]
+  probe-ps: joint - probe: joint: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint - probe-ps: joint: raw +0.030 [-0.007, +0.069]   z +0.026 [-0.016, +0.067]   level +0.038 [-0.005, +0.083]
+  CLS: joint_comm - probe: joint_comm: raw +0.100 [+0.067, +0.136]   z +0.095 [+0.057, +0.136]   level -0.008 [-0.052, +0.039]
+  probe-ps: joint_comm - probe: joint_comm: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint_comm - probe-ps: joint_comm: raw +0.035 [-0.003, +0.072]   z +0.029 [-0.013, +0.070]   level +0.040 [-0.004, +0.083]
+  CLS: joint_comm_rank - probe: joint_comm_rank: raw +0.098 [+0.067, +0.131]   z +0.093 [+0.060, +0.129]   level -0.009 [-0.052, +0.036]
+  probe-ps: joint_comm_rank - probe: joint_comm_rank: raw +0.065 [+0.013, +0.120]   z +0.066 [+0.007, +0.130]   level -0.048 [-0.107, +0.013]
+  CLS: joint_comm_rank - probe-ps: joint_comm_rank: raw +0.033 [-0.006, +0.070]   z +0.027 [-0.016, +0.067]   level +0.039 [+0.001, +0.080]
+  CLS: joint_comm - CLS: joint: raw +0.005 [-0.005, +0.018]   z +0.003 [-0.007, +0.017]   level +0.002 [-0.009, +0.015]
+  probe: joint_comm - probe: joint: raw +0.000 [+0.000, +0.000]   z +0.000 [+0.000, +0.000]   level +0.000 [+0.000, +0.000]
+  CLS: joint_comm_rank - CLS: joint: raw +0.003 [-0.008, +0.014]   z +0.002 [-0.010, +0.013]   level +0.001 [-0.016, +0.018]
+  probe: joint_comm_rank - probe: joint: raw +0.000 [+0.000, +0.000]   z +0.000 [+0.000, +0.000]   level +0.000 [+0.000, +0.000]
+human z CI: [0.737, 0.798]
+per scenario, vs experts z (human first)
+  Basketball     rows=1410 takes= 401 human 0.823  probe: joint 0.708  probe-ps: joint 0.751  CLS: joint 0.762  probe: joint_comm 0.708  probe-ps: joint_comm 0.751  CLS: joint_comm 0.764  probe: joint_comm_rank 0.708  probe-ps: joint_comm_rank 0.751  CLS: joint_comm_rank 0.765
+  Cooking        rows= 473 takes=  99 human 0.495  probe: joint -0.077  probe-ps: joint 0.124  CLS: joint 0.236  probe: joint_comm -0.077  probe-ps: joint_comm 0.124  CLS: joint_comm 0.199  probe: joint_comm_rank -0.077  probe-ps: joint_comm_rank 0.124  CLS: joint_comm_rank 0.212
+  Dance          rows=1641 takes= 338 human 0.698  probe: joint 0.261  probe-ps: joint 0.480  CLS: joint 0.375  probe: joint_comm 0.261  probe-ps: joint_comm 0.480  CLS: joint_comm 0.414  probe: joint_comm_rank 0.261  probe-ps: joint_comm_rank 0.480  CLS: joint_comm_rank 0.411
+  Music          rows= 565 takes= 134 human 0.727  probe: joint 0.261  probe-ps: joint 0.216  CLS: joint 0.325  probe: joint_comm 0.261  probe-ps: joint_comm 0.216  CLS: joint_comm 0.318  probe: joint_comm_rank 0.261  probe-ps: joint_comm_rank 0.216  CLS: joint_comm_rank 0.317
+  Rock Climbing  rows=1246 takes= 449 human 0.845  probe: joint 0.754  probe-ps: joint 0.730  CLS: joint 0.805  probe: joint_comm 0.754  probe-ps: joint_comm 0.730  CLS: joint_comm 0.806  probe: joint_comm_rank 0.754  probe-ps: joint_comm_rank 0.730  CLS: joint_comm_rank 0.808
+  Soccer         rows= 230 takes=  54 human 0.745  probe: joint 0.557  probe-ps: joint 0.604  CLS: joint 0.573  probe: joint_comm 0.557  probe-ps: joint_comm 0.604  CLS: joint_comm 0.559  probe: joint_comm_rank 0.557  probe-ps: joint_comm_rank 0.604  CLS: joint_comm_rank 0.538
+joint: best epoch median 6 (range 1-41)
+joint_comm: best epoch median 7 (range 1-30)
+joint_comm_rank: best epoch median 6 (range 1-29)

@@ -1,0 +1,20 @@
+1511 rated takes, 5565 (take, expert) rows on takes with >= 2 experts, 227 participants
+model                      vs experts raw   vs experts z   vs level
+human: one expert                   0.700          0.772      0.403
+frozen probe (rating)               0.560          0.544      0.448
+CLS: rating                         0.644          0.622      0.426
+CLS: rating_comm                    0.643          0.622      0.425
+paired differences (95% participant bootstrap)
+  CLS: rating - frozen probe (rating): raw +0.084 [+0.054, +0.120]   z +0.079 [+0.043, +0.118]   level -0.022 [-0.067, +0.024]
+  CLS: rating_comm - frozen probe (rating): raw +0.083 [+0.052, +0.117]   z +0.079 [+0.043, +0.118]   level -0.022 [-0.067, +0.022]
+  CLS: rating_comm - CLS: rating: raw -0.001 [-0.009, +0.007]   z -0.000 [-0.008, +0.008]   level -0.001 [-0.011, +0.010]
+human z CI: [0.737, 0.798]
+per scenario, vs experts z (human first)
+  Basketball     rows=1410 takes= 401 human 0.823  frozen probe 0.708  rating 0.753  rating_comm 0.760
+  Cooking        rows= 473 takes=  99 human 0.495  frozen probe -0.077  rating 0.120  rating_comm 0.123
+  Dance          rows=1641 takes= 338 human 0.698  frozen probe 0.261  rating 0.389  rating_comm 0.388
+  Music          rows= 565 takes= 134 human 0.727  frozen probe 0.261  rating 0.156  rating_comm 0.133
+  Rock Climbing  rows=1246 takes= 449 human 0.845  frozen probe 0.754  rating 0.816  rating_comm 0.817
+  Soccer         rows= 230 takes=  54 human 0.745  frozen probe 0.557  rating 0.626  rating_comm 0.626
+rating: best epoch median 6 (range 1-24)
+rating_comm: best epoch median 6 (range 1-19)

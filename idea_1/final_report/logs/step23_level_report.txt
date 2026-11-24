@@ -1,0 +1,34 @@
+2111 takes, 227 participants; level counts [312, 578, 611, 610]
+readout                                   accuracy  balanced  Spearman
+scenario only                                0.345     0.321       nan
+frozen PCA probe                             0.451     0.438     0.452
+rating CLS -> level probe                    0.393     0.354     0.450
+level-trained CLS (earlier)                  0.465     0.460     0.450
+level + hard commentary CLS (earlier)        0.472     0.467     0.458
+joint model, [LEVEL] token                   0.462     0.459     0.465
+joint + commentary, [LEVEL]                  0.460     0.458     0.464
+joint + commentary V-JEPA, [LEVEL]           0.455     0.452     0.479
+paired vs frozen PCA probe (95% participant bootstrap)
+  scenario only                          acc -0.106 [-0.184, -0.029]   balanced -0.117 [-0.192, -0.037]
+  rating CLS -> level probe              acc -0.059 [-0.123, +0.003]   balanced -0.084 [-0.143, -0.023]   rho -0.002 [-0.044, +0.039]
+  level-trained CLS (earlier)            acc +0.014 [-0.019, +0.044]   balanced +0.022 [-0.010, +0.050]   rho -0.002 [-0.047, +0.040]
+  level + hard commentary CLS (earlier)  acc +0.020 [-0.011, +0.049]   balanced +0.029 [-0.004, +0.058]   rho +0.006 [-0.039, +0.046]
+  joint model, [LEVEL] token             acc +0.011 [-0.021, +0.041]   balanced +0.021 [-0.013, +0.055]   rho +0.013 [-0.022, +0.045]
+  joint + commentary, [LEVEL]            acc +0.009 [-0.022, +0.039]   balanced +0.020 [-0.014, +0.054]   rho +0.012 [-0.022, +0.044]
+  joint + commentary V-JEPA, [LEVEL]     acc +0.004 [-0.035, +0.035]   balanced +0.015 [-0.027, +0.046]   rho +0.027 [-0.016, +0.072]
+paired vs level + hard commentary CLS (earlier) (95% participant bootstrap)
+  joint model, [LEVEL] token             acc -0.009 [-0.028, +0.009]   balanced -0.007 [-0.024, +0.010]   rho +0.007 [-0.015, +0.029]
+  joint + commentary, [LEVEL]            acc -0.011 [-0.029, +0.007]   balanced -0.009 [-0.025, +0.009]   rho +0.006 [-0.015, +0.028]
+  joint + commentary V-JEPA, [LEVEL]     acc -0.017 [-0.045, +0.007]   balanced -0.014 [-0.047, +0.012]   rho +0.021 [-0.009, +0.057]
+paired vs joint model, [LEVEL] token (95% participant bootstrap)
+  joint + commentary, [LEVEL]            acc -0.002 [-0.009, +0.005]   balanced -0.002 [-0.009, +0.006]   rho -0.002 [-0.010, +0.006]
+  joint + commentary V-JEPA, [LEVEL]     acc -0.007 [-0.034, +0.019]   balanced -0.007 [-0.037, +0.019]   rho +0.014 [-0.021, +0.051]
+paired vs joint + commentary, [LEVEL] (95% participant bootstrap)
+  joint + commentary V-JEPA, [LEVEL]     acc -0.005 [-0.031, +0.020]   balanced -0.005 [-0.036, +0.020]   rho +0.016 [-0.017, +0.051]
+per scenario accuracy
+  Basketball     n= 540 scenario only 0.443  frozen PCA probe 0.606  rating CLS -> level probe 0.539  level-trained CLS 0.578  level + hard commentary CLS 0.578  joint model, [LEVEL] token 0.554  joint + commentary, [LEVEL] 0.556  joint + commentary V-JEPA, [LEVEL] 0.530
+  Cooking        n=  99 scenario only 0.424  frozen PCA probe 0.424  rating CLS -> level probe 0.212  level-trained CLS 0.404  level + hard commentary CLS 0.404  joint model, [LEVEL] token 0.424  joint + commentary, [LEVEL] 0.394  joint + commentary V-JEPA, [LEVEL] 0.343
+  Dance          n= 501 scenario only 0.485  frozen PCA probe 0.393  rating CLS -> level probe 0.455  level-trained CLS 0.379  level + hard commentary CLS 0.403  joint model, [LEVEL] token 0.413  joint + commentary, [LEVEL] 0.395  joint + commentary V-JEPA, [LEVEL] 0.451
+  Music          n= 172 scenario only 0.570  frozen PCA probe 0.610  rating CLS -> level probe 0.517  level-trained CLS 0.517  level + hard commentary CLS 0.541  joint model, [LEVEL] token 0.506  joint + commentary, [LEVEL] 0.535  joint + commentary V-JEPA, [LEVEL] 0.494
+  Rock Climbing  n= 722 scenario only 0.076  frozen PCA probe 0.328  rating CLS -> level probe 0.208  level-trained CLS 0.406  level + hard commentary CLS 0.403  joint model, [LEVEL] token 0.393  joint + commentary, [LEVEL] 0.395  joint + commentary V-JEPA, [LEVEL] 0.395
+  Soccer         n=  77 scenario only 0.675  frozen PCA probe 0.584  rating CLS -> level probe 0.649  level-trained CLS 0.753  level + hard commentary CLS 0.753  joint model, [LEVEL] token 0.740  joint + commentary, [LEVEL] 0.753  joint + commentary V-JEPA, [LEVEL] 0.584

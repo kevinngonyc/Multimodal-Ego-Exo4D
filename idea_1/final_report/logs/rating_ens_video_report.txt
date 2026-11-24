@@ -1,0 +1,23 @@
+1511 rated takes, 5565 (take, expert) rows on takes with >= 2 experts, 227 participants
+model                      vs experts raw   vs experts z   vs level
+human: one expert                   0.700          0.772      0.403
+probe: ens_video                    0.625          0.609      0.400
+probe-ps: ens_video                 0.625          0.609      0.400
+CLS: ens_video                      0.638          0.623      0.410
+paired differences (95% participant bootstrap)
+  CLS: ens_video - probe: ens_video: raw +0.013 [-0.009, +0.038]   z +0.014 [-0.009, +0.041]   level +0.010 [-0.015, +0.035]
+  probe-ps: ens_video - probe: ens_video: raw +0.000 [+0.000, +0.000]   z +0.000 [+0.000, +0.000]   level +0.000 [+0.000, +0.000]
+  CLS: ens_video - probe-ps: ens_video: raw +0.013 [-0.009, +0.038]   z +0.014 [-0.009, +0.041]   level +0.010 [-0.015, +0.035]
+human z CI: [0.737, 0.798]
+per scenario, vs experts z (human first)
+  Basketball     rows=1410 takes= 401 human 0.823  probe: ens_video 0.751  probe-ps: ens_video 0.751  CLS: ens_video 0.757
+  Cooking        rows= 473 takes=  99 human 0.495  probe: ens_video 0.124  probe-ps: ens_video 0.124  CLS: ens_video 0.202
+  Dance          rows=1641 takes= 338 human 0.698  probe: ens_video 0.480  probe-ps: ens_video 0.480  CLS: ens_video 0.448
+  Music          rows= 565 takes= 134 human 0.727  probe: ens_video 0.216  probe-ps: ens_video 0.216  CLS: ens_video 0.233
+  Rock Climbing  rows=1246 takes= 449 human 0.845  probe: ens_video 0.730  probe-ps: ens_video 0.730  CLS: ens_video 0.789
+  Soccer         rows= 230 takes=  54 human 0.745  probe: ens_video 0.604  probe-ps: ens_video 0.604  CLS: ens_video 0.599
+ens_video: best epoch median 7 (range 1-27)
+human: one expert                   0.700          0.772      0.403
+CLS: rating_ps_video                0.656          0.638      0.416
+CLS: ens_video                      0.638          0.623      0.410
+  CLS: ens_video - CLS: rating_ps_video: raw -0.018 [-0.037, +0.002]   z -0.015 [-0.035, +0.007]   level -0.006 [-0.033, +0.021]

@@ -1,0 +1,52 @@
+
+== official val: 456 takes, 56 participants; 1335 (take, expert) rows on 332 takes
+level counts [29, 151, 152, 124]
+level                                      accuracy                 balanced                 Spearman
+Final model [LEVEL]        0.445    [0.306, 0.587] 0.415    [0.287, 0.557] 0.389    [0.104, 0.629]
+Frozen PCA level probe     0.452    [0.322, 0.591] 0.412    [0.284, 0.564] 0.369    [0.114, 0.594]
+Scenario prior             0.314    [0.182, 0.471] 0.332    [0.214, 0.526]                        -
+final - frozen probe       -0.007  [-0.075, +0.055] +0.003  [-0.070, +0.082] +0.020  [-0.118, +0.145]
+final - scenario prior     +0.132  [-0.014, +0.297] +0.083  [-0.149, +0.262]
+rating vs experts                               raw                        z
+Human: one expert          0.689    [0.564, 0.759] 0.769    [0.662, 0.823]
+Final model [RATING]       0.727    [0.614, 0.788] 0.708    [0.590, 0.775]
+Frozen ridge probe         0.631    [0.514, 0.715] 0.613    [0.497, 0.695]
+final - frozen probe       +0.096  [+0.016, +0.191] +0.095  [+0.011, +0.186]
+per scenario: takes, level acc final / probe / prior, level Spearman final / probe, rating z final / probe / human
+  Basketball      100  acc 0.490 / 0.560 / 0.380   rho 0.390 / 0.371   z 0.613 / 0.523 / 0.777
+  Cooking          20  acc 0.250 / 0.200 / 0.500   rho 0.075 / 0.180   z 0.042 / 0.047 / 0.223
+  Dance           123  acc 0.480 / 0.553 / 0.512   rho 0.412 / 0.484   z 0.621 / 0.606 / 0.598
+  Music            38  acc 0.895 / 0.737 / 0.579   rho 0.744 / 0.355   z 0.382 / 0.385 / 0.669
+  Rock Climbing   159  acc 0.283 / 0.264 / 0.000   rho 0.255 / 0.234   z 0.815 / 0.752 / 0.876
+  Soccer           16  acc 0.688 / 0.500 / 0.625   rho 0.140 / -0.084   z 0.861 / 0.884 / 0.836
+
+== SkillFormer test half of val: 229 takes, 53 participants; 649 (take, expert) rows on 164 takes
+level counts [15, 75, 77, 62]
+level                                      accuracy                 balanced                 Spearman
+Final model [LEVEL]        0.410    [0.275, 0.554] 0.345    [0.239, 0.477] 0.350    [0.052, 0.625]
+Frozen PCA level probe     0.437    [0.305, 0.586] 0.379    [0.267, 0.515] 0.372    [0.087, 0.626]
+Scenario prior             0.319    [0.179, 0.490] 0.349    [0.211, 0.535]                        -
+final - frozen probe       -0.026  [-0.106, +0.045] -0.034  [-0.108, +0.027] -0.022  [-0.196, +0.125]
+final - scenario prior     +0.092  [-0.052, +0.240] -0.004  [-0.201, +0.150]
+rating vs experts                               raw                        z
+Human: one expert          0.651    [0.477, 0.750] 0.721    [0.584, 0.795]
+Final model [RATING]       0.686    [0.549, 0.771] 0.677    [0.539, 0.764]
+Frozen ridge probe         0.628    [0.467, 0.748] 0.611    [0.444, 0.731]
+final - frozen probe       +0.058  [-0.029, +0.138] +0.066  [-0.026, +0.155]
+per scenario: takes, level acc final / probe / prior, level Spearman final / probe, rating z final / probe / human
+  Basketball       55  acc 0.436 / 0.545 / 0.418   rho 0.353 / 0.304   z 0.548 / 0.522 / 0.780
+  Cooking          12  acc 0.250 / 0.333 / 0.500   rho 0.387 / 0.569   z 0.179 / 0.152 / 0.067
+  Dance            60  acc 0.467 / 0.517 / 0.500   rho 0.321 / 0.486   z 0.635 / 0.522 / 0.426
+  Music            17  acc 0.882 / 0.824 / 0.706   rho 0.580 / 0.369   z 0.250 / 0.175 / 0.622
+  Rock Climbing    79  acc 0.253 / 0.228 / 0.000   rho 0.279 / 0.225   z 0.772 / 0.772 / 0.855
+  Soccer            6  acc 0.667 / 0.500 / 0.333   rho 0.828 / 0.000   z 0.478 / 0.703 / 0.597
+
+== per training seed, official val (5 seeds; the run's reported model averages them)
+  seed 0: level acc 0.414  balanced 0.369  Spearman 0.315  rating z 0.685
+  seed 1: level acc 0.463  balanced 0.426  Spearman 0.389  rating z 0.704
+  seed 2: level acc 0.436  balanced 0.407  Spearman 0.367  rating z 0.678
+  seed 3: level acc 0.432  balanced 0.381  Spearman 0.375  rating z 0.638
+  seed 4: level acc 0.423  balanced 0.393  Spearman 0.406  rating z 0.705
+  mean +- sd: acc 0.434 +- 0.018 (min 0.414, max 0.463)  balanced 0.395 +- 0.022 (min 0.369, max 0.426)  Spearman 0.371 +- 0.034 (min 0.315, max 0.406)  rating z 0.682 +- 0.027 (min 0.638, max 0.705)
+
+CSV tables written to final_report\tables

@@ -1,0 +1,20 @@
+﻿2111 takes, 227 participants
+readout                         rho    acc   rho - probe [95% CI]        acc - probe [95% CI]
+frozen probe                  0.452  0.451
+hard: enc                     0.426  0.423   -0.026 [-0.068, +0.018]   -0.028 [-0.057, +0.004]
+hard: heads                   0.307  0.356   -0.145 [-0.220, -0.067]   -0.096 [-0.168, -0.020]
+hard: probe+enc               0.448  0.415   -0.004 [-0.024, +0.017]   -0.036 [-0.067, -0.007]
+hard: probe+heads             0.447  0.428   -0.005 [-0.017, +0.008]   -0.023 [-0.050, +0.004]
+hard_aspect: enc              0.442  0.424   -0.010 [-0.052, +0.032]   -0.027 [-0.057, +0.004]
+hard_aspect: heads            0.307  0.386   -0.146 [-0.217, -0.070]   -0.066 [-0.128, -0.001]
+hard_aspect: probe+enc        0.456  0.428   +0.004 [-0.017, +0.023]   -0.023 [-0.047, +0.000]
+hard_aspect: probe+heads      0.448  0.426   -0.004 [-0.016, +0.009]   -0.026 [-0.060, +0.009]
+per scenario rho
+  Basketball     n= 540 frozen probe=0.625  hard: enc=0.596  hard: heads=0.445  hard_aspect: enc=0.599  hard_aspect: heads=0.432
+  Cooking        n=  99 frozen probe=0.015  hard: enc=0.103  hard: heads=-0.188  hard_aspect: enc=0.087  hard_aspect: heads=-0.176
+  Dance          n= 501 frozen probe=0.374  hard: enc=0.359  hard: heads=0.251  hard_aspect: enc=0.376  hard_aspect: heads=0.237
+  Music          n= 172 frozen probe=-0.017  hard: enc=0.129  hard: heads=0.125  hard_aspect: enc=0.208  hard_aspect: heads=0.104
+  Rock Climbing  n= 722 frozen probe=0.449  hard: enc=0.417  hard: heads=0.347  hard_aspect: enc=0.446  hard_aspect: heads=0.367
+  Soccer         n=  77 frozen probe=0.277  hard: enc=-0.051  hard: heads=-0.016  hard_aspect: enc=-0.081  hard_aspect: heads=-0.001
+hard: best epoch median 8 (range 4-15); held-out commentary: pres_auc 0.742, pres_auc_position 0.511, pol_auc 0.670, pol_frac_good 0.371, txt_cos 0.612, txt_cos_meanbaseline 0.562
+hard_aspect: best epoch median 9 (range 5-15); held-out commentary: pres_auc 0.744, pres_auc_position 0.511, pol_auc 0.672, pol_frac_good 0.371, txt_cos 0.635, txt_cos_meanbaseline 0.562

@@ -3,3 +3,7 @@ tensors/
 pretrained/
 qwen35-4b-finetuned/
 embeddings/
+*.pt
+*.log
+*.out
+__pycache__/

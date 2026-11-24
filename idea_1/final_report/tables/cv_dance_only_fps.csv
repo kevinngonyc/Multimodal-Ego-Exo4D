@@ -1,0 +1,5 @@
+model,rating_raw,rating_z,level_acc,level_bal_acc,level_spearman,note
+"Rating-only CLS, Dance, 8 FPS",0.370,0.350,0.357,0.245,0.324,own 4x5 folds over the 501 Dance takes; level read from the rating score
+"Frozen probe, Dance, 8 FPS",0.451,0.440,0.327,0.222,0.311,own 4x5 folds over the 501 Dance takes; level read from the rating score
+"Rating-only CLS, Dance, 30 FPS",0.364,0.344,0.351,0.235,0.335,own 4x5 folds over the 501 Dance takes; level read from the rating score
+"Frozen probe, Dance, 30 FPS",0.426,0.413,0.315,0.207,0.321,own 4x5 folds over the 501 Dance takes; level read from the rating score

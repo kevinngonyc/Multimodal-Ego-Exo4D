@@ -1,0 +1,14 @@
+model,view,note,level_acc,acc_ci_lo,acc_ci_hi,level_bal_acc,level_spearman,rating_z,rating_z_ci_lo,rating_z_ci_hi
+Ours (final model),Ego,"ego only, 2 seeds",0.439,0.318,0.573,0.424,0.326,0.673,0.536,0.755
+Ours (final model),Exo,"best exo camera only, 2 seeds",0.458,0.325,0.597,0.377,0.335,0.704,0.576,0.777
+Ours (final model),Ego+Exo,"ego + best exo, 2 seeds (headline run)",0.458,0.319,0.603,0.417,0.398,0.720,0.610,0.779
+Ours (final model),Ego+Exo,"ego + best exo, 5 seeds",0.445,0.306,0.587,0.415,0.389,0.708,0.590,0.775
+SkillFormer,Ego,"ego (paper, single run)",0.459,,,,,,,
+SkillFormer,Exo,"all exo cameras (paper, single run)",0.463,,,,,,,
+SkillFormer,Ego+Exo,"ego + all exo cameras (paper, single run)",0.475,,,,,,,
+ProfVLM (AGP),Ego,"ego (paper, single run)",0.442,,,,,,,
+ProfVLM (AGP),Exo,"all exo cameras (paper, single run)",0.451,,,,,,,
+ProfVLM (AGP),Ego+Exo,"ego + all exo cameras (paper, single run)",0.482,,,,,,,
+ProfVLM (MLP),Ego,"ego (paper, single run)",0.389,,,,,,,
+ProfVLM (MLP),Exo,"all exo cameras (paper, single run)",0.442,,,,,,,
+ProfVLM (MLP),Ego+Exo,"ego + all exo cameras (paper, single run)",0.429,,,,,,,

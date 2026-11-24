@@ -1,0 +1,7 @@
+scenario,majority,baseline_ego_exos,skillformer_ego_exos,profvlm_agp_ego_exos
+Basketball,36.19,55.24,77.88,41.0
+Cooking,50.0,35.0,60.53,51.0
+Dance,51.61,42.74,13.68,60.35
+Music,58.97,56.41,68.1,56.26
+Rock Climbing (Bouldering),0.0,17.28,31.87,38.74
+Soccer,62.5,75.0,66.67,69.75

@@ -1,0 +1,11 @@
+{"scenario": "Dance", "fold": 0, "n_fit": 321, "n_innerval": 54, "n_test": 126, "rated_fit": 226, "rated_innerval": 30, "rated_test": 83, "experts": 6, "pairs_same_task": 26770, "pairs_other": 66560, "pairs_used": 26770, "args": {"fold": 0, "scenario": "Dance", "W": 32, "pairs": 4, "lam": 4.0, "rank": 1.0, "lora_r": 8, "layers": "8,9,10,11", "lr": 0.0001, "head_lr": 0.0001, "ft_epochs": 8, "patience": 3, "workers": 6, "smoke": true}}
+{"stage": "frozen", "best_epoch": 2, "inner_rho": 0.7998, "min": 0.5}
+{"lora_params": 344064}
+{"sanity_cos_full": [0.9996, 0.9996], "sanity_cos_window": 0.9998, "min": 0.8}
+{"epoch": 0, "inner_rho_live": -0.6, "min": 1.1}
+{"epoch": 1, "step": 0, "loss": 11.9166, "sec_per_step": 20.3, "data_wait": 2.1, "mem_gb": 7.66}
+{"epoch": 1, "step": 1, "loss": 9.1997, "sec_per_step": 19.2, "data_wait": 2.1, "mem_gb": 7.67}
+{"epoch": 1, "step": 2, "loss": 9.6132, "sec_per_step": 18.8, "data_wait": 2.1, "mem_gb": 7.67}
+{"epoch": 1, "step": 3, "loss": 10.3051, "sec_per_step": 18.6, "data_wait": 2.1, "mem_gb": 7.67}
+{"epoch": 1, "loss": 10.2587, "inner_rho_live": 0.0, "train_min": 1.5, "data_wait_min": 0.0, "min": 2.9}
+{"test": {"frozen": {"experts_z": 0.325, "mean_z": 0.486, "level_rho": NaN, "level_acc": 0.0, "pres_auc": 0.62, "txt_cos": 0.124, "txt_cos_meanbaseline": 0.66}, "ft_best": {"experts_z": 0.399, "mean_z": 0.6, "level_rho": NaN, "level_acc": 0.0, "pres_auc": 0.639, "txt_cos": 0.154, "txt_cos_meanbaseline": 0.66}, "final": {"experts_z": 0.129, "mean_z": 0.257, "level_rho": NaN, "level_acc": 0.0}}, "experts_z_diff_ci": {"ft_best - frozen": [0.074, 0.074, 0.074], "ft_best - final": [0.27, 0.27, 0.27]}, "best_epoch": 1, "last_epoch": 1, "rows": 27, "takes": 6, "min": 3.2}

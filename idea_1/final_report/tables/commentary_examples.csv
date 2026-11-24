@@ -1,0 +1,23 @@
+take,scenario,level,take_presence_auc,time_s,presence_prob,aspect_1,aspect_1_prob,aspect_1_call,aspect_1_polarity,aspect_2,aspect_2_prob,aspect_2_call,aspect_2_polarity,real_comments_within_3s,real_comment_aspects_within_3s
+unc_basketball_03-30-23_02_2,Basketball,Late Expert,0.815,0,0.136,follow-through,0.63,praise,+0.20,footwork,0.16,praise,+0.22,0,
+unc_basketball_03-30-23_02_2,Basketball,Late Expert,0.815,17,0.583,footwork,0.33,praise,+0.30,follow-through,0.29,praise,+0.36,143,footwork (tip); footwork (praise); legs (tip); lift (tip); lift (praise); balance (tip); shooting hand (tip); guide hand (praise); ball position (tip); ball position (praise); follow-through (tip); follow-through (praise); eyes (praise); ball flight (tip); ball flight (praise)
+unc_basketball_03-30-23_02_2,Basketball,Late Expert,0.815,33,0.514,follow-through,0.46,praise,+0.36,footwork,0.24,praise,+0.36,32,footwork (praise); lift (praise); guide hand (tip); ball position (tip); follow-through (tip); shoulders (tip); shoulders (praise); ball flight (tip)
+iiith_cooking_55_2,Cooking,Novice,0.588,35,0.362,knife,0.74,tip,-0.08,handling,0.18,praise,+0.00,6,tools (praise); workspace (tip); workspace (praise)
+iiith_cooking_55_2,Cooking,Novice,0.588,174,0.250,handling,0.57,praise,+0.02,knife,0.35,tip,-0.10,9,heat (tip); ingredients (tip)
+iiith_cooking_55_2,Cooking,Novice,0.588,304,0.229,handling,0.52,praise,+0.08,knife,0.43,tip,-0.04,24,heat (tip); heat (praise); handling (tip); handling (praise); pace (praise)
+iiith_cooking_55_2,Cooking,Novice,0.588,387,0.137,handling,0.54,praise,+0.07,knife,0.41,tip,-0.11,6,steps (tip); handling (tip)
+uniandes_dance_002_7,Dance,Late Expert,0.766,1,0.072,clarity,0.99,tip,-0.06,arms,0.00,praise,+0.04,0,
+uniandes_dance_002_7,Dance,Late Expert,0.766,16,0.367,clarity,0.96,tip,-0.12,arms,0.03,tip,-0.01,9,rhythm (tip); arms (tip); clarity (tip); clarity (praise); ease (tip)
+uniandes_dance_002_7,Dance,Late Expert,0.766,35,0.338,clarity,0.97,tip,-0.21,arms,0.02,tip,-0.11,59,rhythm (tip); arms (tip); balance (tip); turns (tip); dynamics (tip); clarity (tip); ease (tip); pace (tip)
+uniandes_dance_002_7,Dance,Late Expert,0.766,50,0.311,clarity,0.98,tip,-0.11,arms,0.01,tip,-0.04,6,clarity (tip)
+upenn_0724_Guitar_1_3,Music,Intermediate Expert,0.592,4,0.209,posture,0.46,tip,-0.09,bowing,0.44,tip,-0.05,0,
+upenn_0724_Guitar_1_3,Music,Intermediate Expert,0.592,51,0.139,bowing,0.52,praise,+0.05,posture,0.37,praise,+0.05,18,notes (tip); tempo (tip); bowing (tip); fingering (tip); fingering (praise); posture (tip); musicality (tip)
+upenn_0724_Guitar_1_3,Music,Intermediate Expert,0.592,129,0.126,bowing,0.47,praise,+0.12,fingering,0.43,tip,-0.01,15,tone (tip); fingering (praise); coordination (tip); posture (tip)
+upenn_0724_Guitar_1_3,Music,Intermediate Expert,0.592,190,0.119,bowing,0.45,praise,+0.03,fingering,0.44,praise,+0.05,21,tempo (tip); tone (tip); bowing (tip); fingering (tip); posture (praise)
+uniandes_bouldering_034_8,Rock Climbing,Early Expert,0.897,12,0.593,hips,0.93,praise,+0.17,dynamic moves,0.02,praise,+0.04,83,footwork (praise); hands (praise); hips (tip); hips (praise); tension (tip); tension (praise); dynamic moves (tip); dynamic moves (praise); overall (tip); other (praise)
+uniandes_bouldering_034_8,Rock Climbing,Early Expert,0.897,27,0.778,hips,0.94,praise,+0.05,footwork,0.02,praise,+0.04,39,hips (tip); hips (praise); dynamic moves (tip); dynamic moves (praise); route reading (tip); overall (tip); overall (praise)
+uniandes_bouldering_034_8,Rock Climbing,Early Expert,0.897,47,0.538,hips,0.94,praise,+0.02,tension,0.02,tip,-0.08,20,hips (tip); hips (praise); dynamic moves (tip); dynamic moves (praise)
+iiith_soccer_031_6,Soccer,Late Expert,0.684,13,0.532,posture,0.58,tip,-0.04,contact,0.37,praise,+0.00,132,contact (tip); contact (praise); posture (tip); posture (praise); movement (tip)
+iiith_soccer_031_6,Soccer,Late Expert,0.684,58,0.374,posture,0.76,tip,-0.11,contact,0.22,tip,-0.02,48,contact (tip); contact (praise); posture (tip); movement (tip)
+iiith_soccer_031_6,Soccer,Late Expert,0.684,108,0.383,posture,0.57,tip,-0.16,contact,0.40,praise,+0.00,48,contact (tip); posture (tip); movement (tip); movement (praise)
+iiith_soccer_031_6,Soccer,Late Expert,0.684,197,0.300,posture,0.75,tip,-0.12,contact,0.23,tip,-0.09,0,

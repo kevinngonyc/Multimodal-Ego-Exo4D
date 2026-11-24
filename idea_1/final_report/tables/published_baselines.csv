@@ -1,0 +1,15 @@
+method,pretrain,acc_ego,acc_exos,acc_ego_exos,frames,trainable_params,epochs,note
+Random,,24.9,24.9,24.9,,,,SkillFormer Table 1 / ProfVLM Table 3
+Majority class,,31.1,31.1,31.1,,,,equals the per-scenario training majority on val (we get 0.311 on 466 takes)
+TimeSformer,none,42.3,40.1,40.8,16,121M,15,Ego-Exo4D baseline
+TimeSformer,K400,42.9,39.1,38.6,16,121M,15,Ego-Exo4D baseline
+TimeSformer,HowTo100M,46.8,38.2,39.7,16,121M,15,Ego-Exo4D baseline
+TimeSformer,EgoVLP,44.4,40.6,39.5,16,121M,15,Ego-Exo4D baseline
+TimeSformer,EgoVLPv2,45.9,38.0,37.8,16,121M,15,Ego-Exo4D baseline
+EgoPulseFormer,EgoPPG-DB,45.3,35.9,42.4,16,121M,15,
+PandaGPT (0-shot),,23.5,25.6,25.8,,52M,,ProfVLM Table 3
+SmolVLM (0-shot),,34.2,30.7,31.1,,256M,,ProfVLM Table 3
+SmolVLM2 (0-shot),,26.8,30.5,32.2,,256M,,ProfVLM Table 3
+SkillFormer,K600,45.9,46.3,47.5,32 / 24 / 16,14M / 20M / 27M,4,LoRA TimeSformer + CrossViewFusion; arXiv 2505.08665
+ProfVLM (MLP),,38.9,44.2,42.9,8,2.2M,6,frozen TimeSformer + LM; arXiv 2509.26278
+ProfVLM (AGP),,44.2,45.1,48.2,8,5.3M,6,also BERTScore F1 85.53 for generated feedback

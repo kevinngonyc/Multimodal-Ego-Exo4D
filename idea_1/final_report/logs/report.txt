@@ -1,0 +1,22 @@
+2111 takes, 227 participants
+  frozen probe       rho 0.452   acc 0.451
+  CLS: level         rho 0.450   acc 0.465
+  CLS: weighted      rho 0.451   acc 0.471
+  CLS: hard          rho 0.458   acc 0.472
+paired differences (95% participant bootstrap)
+  CLS: level - frozen probe: rho -0.002 [-0.047, +0.040]   acc +0.014 [-0.019, +0.044]
+  CLS: weighted - frozen probe: rho -0.001 [-0.045, +0.039]   acc +0.020 [-0.010, +0.049]
+  CLS: hard - frozen probe: rho +0.006 [-0.039, +0.046]   acc +0.020 [-0.011, +0.049]
+  CLS: weighted - CLS: level: rho +0.001 [-0.011, +0.014]   acc +0.006 [-0.007, +0.021]
+  CLS: hard - CLS: level: rho +0.008 [-0.007, +0.022]   acc +0.007 [-0.005, +0.021]
+  CLS: weighted - CLS: hard: rho -0.007 [-0.017, +0.003]   acc -0.000 [-0.009, +0.008]
+per scenario rho
+  Basketball     n= 540 frozen probe 0.625  level 0.636  weighted 0.627  hard 0.628
+  Cooking        n=  99 frozen probe 0.015  level 0.151  weighted 0.155  hard 0.164
+  Dance          n= 501 frozen probe 0.374  level 0.337  weighted 0.346  hard 0.339
+  Music          n= 172 frozen probe -0.017  level -0.002  weighted -0.013  hard -0.009
+  Rock Climbing  n= 722 frozen probe 0.449  level 0.435  weighted 0.437  hard 0.451
+  Soccer         n=  77 frozen probe 0.277  level 0.160  weighted 0.178  hard 0.190
+level: best epoch median 3 (range 1-21)
+weighted: best epoch median 3 (range 1-18)
+hard: best epoch median 3 (range 1-16)
